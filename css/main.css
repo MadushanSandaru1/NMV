@@ -1,0 +1,159 @@
+/*header*/
+.navbar, .footer {
+    background-color: #740F17;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Aleo';
+}
+
+.navbar-brand:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #FFF;
+}
+
+.link a:hover {
+    background-color: #3FAA52;
+    border-radius: 5px;
+    border-left: 5px solid #FFE842;
+}
+
+.link {
+    color: #fff;
+    font-family: 'Aclonica';
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+/* ################################# */
+
+/* green yellow lines */
+.colorGreen {
+    background-color: #3FAA52;
+    height: 5px;
+}
+
+.colorYellow {
+    background-color: #FFE842;
+    height: 5px;
+}
+/* ################################# */
+
+/* carousel */
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.carousel img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+/* ################################# */
+
+/* index */
+.princMsg h2 {
+    font-family: 'Baloo Bhaina';
+}
+
+.princMsg .msg, .desc {
+    font-family: 'Habibi';
+    font-size: 18px;
+}
+
+.princImg img {
+    width: 200px;
+}
+
+.princDes img {
+    width: 200px;
+}
+/* ################################# */
+
+/* about */
+.info {
+    text-align: center;
+}
+
+.topic {
+    font-family: 'Baloo Bhaina';
+}
+
+.emblem img {
+    height: 200px;
+}
+
+.flag img {
+    height: 200px;
+}
+/* ################################# */
+
+/* contact */
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:1080px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:1080px;
+}
+
+.contactDetails {
+    border: 2px solid #740F17;
+}
+
+.contactDetails h4 {
+    font-family: 'Habibi';
+}
+
+.contactDetails pre {
+    font-size: 20px;
+}
+
+.contactDetails a {
+    text-decoration: none;
+}
+/* ################################# */
+
+/* footer */
+.footerLogo img {
+    height: 120px;
+}
+
+.footerLink h6 {
+    color: #FFE842;
+}
+
+.footerLink a {
+    color: #fff;
+}
+
+.footerLink a:hover {
+    color: #3FAA52;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footerBottom {
+    color: darkgrey;
+    font-family: 'Anonymous Pro';
+}
+
+.sociaMedia a {
+    color: #fff;
+}
+
+.sociaMedia a:hover {
+    color: #3FAA52;
+}
+/* ################################# */
