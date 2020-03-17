@@ -72,55 +72,48 @@
                 <!--</div>-->
             </nav>
             
-            <!--<section >        
+            <section >        
                 <div class="container my-4">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="mapouter">
                                 <div class="gmap_canvas">
-                                    <iframe width="1080" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=nishshankamalla&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                                    <a href="https://www.emojilib.com"></a>
+                                    <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Sri%20nishshanka%20malla%20vidyalaya%2C%20Hangarapitiya&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                                 </div>
                             </div>
                         </div>
                     </div>                
                 </div>
-            </section>-->
+            </section>
             
             <section>
                 <div class="container">
                     <div class="contactDetails row mb-4 p-3">
+                        
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="px-5 py-5">
+                            <div class="px-3 py-5">
                                 <h4>Address</h4>
                                 <pre>   Hangarapitiya,<br>   Hatton,<br>   Sri Lanka.</pre>
-
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="px-3 py-5">
                                 <h4>Tel</h4>
                                 <pre>   +94 (0)11 1234567</pre>
 
                                 <h4>Fax</h4>
                                 <pre>   +94 (0)11 1236547</pre>
-
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="px-3 py-5">
                                 <h4>E mail</h4>
                                 <a href="mailto:example@gmail.com" target="_top"><pre>   example@gmail.com</pre></a>
                             </div>
                         </div>
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="px-5 py-5">
-                                <h4>Address</h4>
-                                <pre>   Hangarapitiya,<br>   Hatton,<br>   Sri Lanka.</pre>
-
-                                <h4>Tel</h4>
-                                <pre>   +94 (0)11 1234567</pre>
-
-                                <h4>Fax</h4>
-                                <pre>   +94 (0)11 1236547</pre>
-
-                                <h4>E mail</h4>
-                                <a href="mailto:example@gmail.com" target="_top"><pre>   example@gmail.com</pre></a>
-                            </div>
-                        </div>
+                        
                     </div>                
                 </div>
             </section>

@@ -117,14 +117,14 @@
             
             <section >        
                 <div class="princMsg container py-5">
-                    <h2>විදුහල්පතිගේ පණිවිඩය</h2>
+                    <h2>විදුහල්පතිතුමාගේ පණිවිඩය</h2>
                     <div class="colorYellow col-lg-12 col-md-12 col-sm-12 col-12"></div>
                     <div class="colorGreen col-lg-12 col-md-12 col-sm-12 col-12"></div>
                     <div class="row my-4">
-                        <div class="princImg col-lg-3 col-md32 col-sm-3 col-3">
-                            <img src="../img/principal.png"  class="float-right rounded" alt="principal's image">
+                        <div class="princImg col-lg-3 col-md-4 col-sm-5 col-5">
+                            <img src="../img/principal.png"  class="rounded" alt="principal's image">
                         </div>
-                        <div class="princDes col-lg-9 col-md-9 col-sm-9 col-9">
+                        <div class="princDes col-lg-9 col-md-8 col-sm-7 col-7">
                             <p><b>මිල්ටන් ප්‍රේමසිරි මහතා</b><br>SLPS II</p>
                         </div>
                     </div>

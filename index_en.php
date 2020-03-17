@@ -43,8 +43,11 @@
             <nav class="navbar navbar-expand-sm">
                 <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
                     <div class="container-fluid">
-                        <div class="navbar-header">
-                            <a class="navbar-brand" href="index_en.php"><img src="img/logo.JPG">  Sri Nishshankamalla Maha Vidyalaya</a>
+                        <div class="row navbar-header">
+                            <a class="navbar-brand" href="index_en.php">
+                                <img src="img/logo.JPG">
+                                Sri Nishshankamalla Maha Vidyalaya
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -123,10 +126,10 @@
                     <div class="colorYellow col-lg-12 col-md-12 col-sm-12 col-12"></div>
                     <div class="colorGreen col-lg-12 col-md-12 col-sm-12 col-12"></div>
                     <div class="row my-4">
-                        <div class="princImg col-lg-3 col-md32 col-sm-3 col-3">
-                            <img src="img/principal.png"  class="float-right rounded" alt="principal's image">
+                        <div class="princImg col-lg-3 col-md-4 col-sm-5 col-5">
+                            <img src="img/principal.png"  class="rounded" alt="principal's image">
                         </div>
-                        <div class="princDes col-lg-9 col-md-9 col-sm-9 col-9">
+                        <div class="princDes col-lg-9 col-md-8 col-sm-7 col-7">
                             <p><b>Mr. Milton Premasiri</b><br>SLPS II</p>
                         </div>
                     </div>

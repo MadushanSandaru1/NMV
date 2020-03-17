@@ -72,6 +72,21 @@
                 <!--</div>-->
             </nav>
             
+            <section >        
+                <div class="desc container pt-5">
+                    <div class="row">
+                        <div class="msg col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div>
+                                <p class="text-justify">Aarogya Hospital has been a trusted name in Sri Lankan healthcare for more than seven Decades. Since our foundation in 1945, we have built a reputation for regional leadership in medical excellence and innovation, based on a simple philosophy: that improving the health of our community should be driven by passion as well as compassion. Aarogya Hospital offers 260 beds – including 60 in our critical care department – across a range of spacious, modern rooms. We offer the best consultants, specialists and employees, all of whom are dedicated to providing exceptional clinical outcomes and utmost customer satisfaction. With cutting-edge technology, we have evolved into a world-class tertiary care institute. Our facilities include an ultramodern theatre complex comprising eight theatres and state-of-the-art intensive care units (ICUs). We also offer a modern radiology unit, fully equipped physiotherapy unit and two catheterisation laboratories.</p>
+                                
+                                <img src="../img/history.jpg" class="rounded mx-auto d-block my-5" alt="history image">
+                                
+                                <p class="text-justify">Aarogya Hospital has been a trusted name in Sri Lankan healthcare for more than seven Decades. Since our foundation in 1945, we have built a reputation for regional leadership in medical excellence and innovation, based on a simple philosophy: that improving the health of our community should be driven by passion as well as compassion. Aarogya Hospital offers 260 beds – including 60 in our critical care department – across a range of spacious, modern rooms. We offer the best consultants, specialists and employees, all of whom are dedicated to providing exceptional clinical outcomes and utmost customer satisfaction. With cutting-edge technology, we have evolved into a world-class tertiary care institute. Our facilities include an ultramodern theatre complex comprising eight theatres and state-of-the-art intensive care units (ICUs). We also offer a modern radiology unit, fully equipped physiotherapy unit and two catheterisation laboratories.</p>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </section>
             
             
             <section>        

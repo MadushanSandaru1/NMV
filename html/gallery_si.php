@@ -36,6 +36,34 @@
 
             <!-- css -->
             <link href="../css/main.css" rel="stylesheet">
+            
+            <style>
+            
+                .gallery-image{
+                    height:250px;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+                
+                .img-thumbnail:hover {
+                    box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.2);
+                    text-decoration: none;
+                }
+                
+                .img-thumbnail:hover a {
+                    text-decoration: none;
+                }
+                
+                .img-thumbnail h5 {
+                    color: rgb(116, 15, 23);
+                } 
+                
+                .gallery-topic {
+                    font-family: 'Baloo Bhaina';
+                    text-align: center;
+                }
+            </style>
 
         </head>
 
@@ -72,7 +100,62 @@
                 <!--</div>-->
             </nav>
 
-            
+            <div class="container-fluid py-4">
+                <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="px-5 py-5">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="px-5 py-5">
+                                <h1 class="topic text-center">ගැලරිය</h1>
+                                <div class="colorYellow col-lg-12 col-md-12 col-sm-12 col-12"></div>
+                                <div class="colorGreen col-lg-12 col-md-12 col-sm-12 col-12"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="px-5 py-5">
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="row">
+                    
+                    <?php
+                        $dir = "../img/gallery";
+
+                        // Open a directory, and read its contents
+                        if (is_dir($dir)){
+                            if ($dh = opendir($dir)){
+                                while (($file = readdir($dh)) !== false){
+                                    if(strlen($file) > 3) {
+                    ?>
+                    
+                    <!-- gallery item -->
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 p-4">
+                        <div class="img-thumbnail">
+                            <a href="../img/gallery/<?php echo $file; ?>" target="_blank">
+                                <div class="gallery-image rounded" style="background-image: url('../img/gallery/<?php echo $file; ?>');">
+
+                                </div>
+                                <div class="caption">
+                                    <h5 class="text-center lead"><?php echo strstr($file,".",true); ?></h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- gallery item -->
+                    
+                    <?php
+                                        }
+                                }
+                                closedir($dh);
+                            }
+                        }
+                    ?>
+                    
+                </div>
+            </div>
             
             <section>        
                 <div class="footer position-relative">
