@@ -7,7 +7,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
 
             <!--title icon-->
-            <link rel="icon" type="image/ico" href="../img/logo.JPG"/>
+            <link rel="icon" type="image/ico" href="../img/logo.jpg"/>
 
             <!-- bootstrap jquary -->
             <script src="../js/bootstrap.min.js"></script>
@@ -42,7 +42,7 @@
                 <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
                     <div class="container-fluid">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="index_si.php"><img src="../img/logo.JPG">  ශ්‍රී නිශ්ශංකමල්ල මහා විද්‍යාලය</a>
+                            <a class="navbar-brand" href="index_si.php"><img src="../img/logo.jpg">  ශ්‍රී නිශ්ශංකමල්ල මහා විද්‍යාලය</a>
                         </div>
                     </div>
                 </div>

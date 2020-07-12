@@ -7,7 +7,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
 
             <!--title icon-->
-            <link rel="icon" type="image/ico" href="img/logo.JPG"/>
+            <link rel="icon" type="image/ico" href="img/logo.jpg"/>
 
             <!-- bootstrap jquary -->
             <script src="js/bootstrap.min.js"></script>
@@ -45,7 +45,7 @@
                     <div class="container-fluid">
                         <div class="row navbar-header">
                             <a class="navbar-brand" href="index_en.php">
-                                <img src="img/logo.JPG">
+                                <img src="img/logo.jpg">
                                 Sri Nishshankamalla Maha Vidyalaya
                             </a>
                         </div>
