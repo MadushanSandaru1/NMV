@@ -62,7 +62,7 @@
                         </ul>
                         <span class="navbar-text">
                             <div class="btn-group btn-group-sm">
-                            <button type="button" class="btn btn-outline-light"  onclick="window.location.href = '../index_en.php';">En</button>
+                            <button type="button" class="btn btn-outline-light"  onclick="window.location.href = '../index.php';">En</button>
                             <button type="button" class="btn btn-outline-light"  onclick="window.location.href = 'index_si.php';">සිං</button>
                         </div>
                         </span>

@@ -44,7 +44,7 @@
                 <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
                     <div class="container-fluid">
                         <div class="row navbar-header">
-                            <a class="navbar-brand" href="index_en.php">
+                            <a class="navbar-brand" href="index.php">
                                 <img src="img/logo.jpg">
                                 Sri Nishshankamalla Maha Vidyalaya
                             </a>
@@ -59,7 +59,7 @@
                 <!--<div class="mx-auto d-sm-flex d-block flex-sm-nowrap">-->
                     <div class="container">
                         <ul class="link nav navbar-nav">
-                            <li class="mx-3 nav-item active"><a class="nav-link" href="index_en.php"><i class="fas fa-home"></i> | HOME</a></li>
+                            <li class="mx-3 nav-item active"><a class="nav-link" href="index.php"><i class="fas fa-home"></i> | HOME</a></li>
                             <li class="mx-3 nav-item"><a class="nav-link" href="html/history_en.php"><i class="fas fa-history"></i> | HISTORY</a></li>
                             <li class="mx-3 nav-item"><a class="nav-link" href="html/about_en.php"><i class="fas fa-info"></i> | ABOUT</a></li>
                             <li class="mx-3 nav-item"><a class="nav-link" href="html/gallery_en.php"><i class="fas fa-photo-video"></i> | GALLERY</a></li>
@@ -67,7 +67,7 @@
                         </ul>
                         <span class="navbar-text">
                             <div class="btn-group btn-group-sm">
-                            <button type="button" class="btn btn-outline-light"  onclick="window.location.href = 'index_en.php';">En</button>
+                            <button type="button" class="btn btn-outline-light"  onclick="window.location.href = 'index.php';">En</button>
                             <button type="button" class="btn btn-outline-light"  onclick="window.location.href = 'html/index_si.php';">සිං</button>
                         </div>
                         </span>
@@ -155,7 +155,7 @@
                             <div class="footerLink  col-lg-4 col-md-4 col-sm-12 col-12 py-5">
                                 <h6>MAIN MENU</h6>
                                 <ul>
-                                    <a href="index_en.php"><li>Home</li></a>
+                                    <a href="index.php"><li>Home</li></a>
                                     <a href="html/history_en.php"><li>History</li></a>
                                     <a href="html/about_en.php"><li>About</li></a>
                                     <a href="html/gallery_en.php"><li>Gallery</li></a>

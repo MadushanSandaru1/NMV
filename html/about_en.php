@@ -44,7 +44,7 @@
                 <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
                     <div class="container-fluid">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="index_en.php"><img src="../img/logo.jpg">  Sri Nishshankamalla Maha Vidyalaya</a>
+                            <a class="navbar-brand" href="index.php"><img src="../img/logo.jpg">  Sri Nishshankamalla Maha Vidyalaya</a>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                 <!--<div class="mx-auto d-sm-flex d-block flex-sm-nowrap">-->
                     <div class="container">
                         <ul class="link nav navbar-nav">
-                            <li class="mx-3 nav-item"><a class="nav-link" href="../index_en.php"><i class="fas fa-home"></i> | HOME</a></li>
+                            <li class="mx-3 nav-item"><a class="nav-link" href="../index.php"><i class="fas fa-home"></i> | HOME</a></li>
                             <li class="mx-3 nav-item"><a class="nav-link" href="history_en.php"><i class="fas fa-history"></i> | HISTORY</a></li>
                             <li class="mx-3 nav-item active"><a class="nav-link" href="about_en.php"><i class="fas fa-info"></i> | ABOUT</a></li>
                             <li class="mx-3 nav-item"><a class="nav-link" href="gallery_en.php"><i class="fas fa-photo-video"></i> | GALLERY</a></li>
@@ -176,7 +176,7 @@
                             <div class="footerLink  col-lg-4 col-md-4 col-sm-12 col-12 py-5">
                                 <h6>MAIN MENU</h6>
                                 <ul>
-                                    <a href="../index_en.php"><li>Home</li></a>
+                                    <a href="../index.php"><li>Home</li></a>
                                     <a href="history_en.php"><li>History</li></a>
                                     <a href="about_en.php"><li>About</li></a>
                                     <a href="gallery_en.php"><li>Gallery</li></a>
