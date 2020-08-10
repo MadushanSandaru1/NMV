@@ -41,16 +41,42 @@
             <nav class="navbar navbar-expand-sm">
                 <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
                     <div class="container-fluid">
-                        <div class="navbar-header">
-                            <a class="navbar-brand" href="index_si.php"><img src="../img/logo.jpg">  ශ්‍රී නිශ්ශංකමල්ල මහා විද්‍යාලය</a>
+                        <div class="row navbar-header">
+                            <a class="navbar-brand" href="index_si.php">
+                                <div class="d-inline"><img src="../img/logo.jpg" style="width:130px"></div>
+                                <div class="d-none d-md-inline" style="font-size: 70%;"> ශ්‍රී නිශ්ශංකමල්ල මහා විද්‍යාලය</div>
+                            </a>
                         </div>
                     </div>
                 </div>
+                <button class="navbar-toggle btn btn-lg text-light d-md-none" data-toggle="collapse" data-target="#myNavbar">
+                    <i class="fa fa-bars"></i>
+                </button>
             </nav>
             <div class="colorYellow col-lg-12 col-md-12 col-sm-12 col-12"></div>
             <div class="colorGreen col-lg-12 col-md-12 col-sm-12 col-12"></div>
 
-            <nav class="navbar navbar-expand-sm navbar-dark">
+            <nav class="navbar navbar-expand-sm navbar-dark d-none d-md-block">
+                <!--<div class="mx-auto d-sm-flex d-block flex-sm-nowrap">-->
+                    <div class="container">
+                        <ul class="link nav navbar-nav">
+                            <li class="mx-3 nav-item active"><a class="nav-link" href="index_si.php"><i class="fas fa-home"></i> | මුල් පිටුව</a></li>
+                            <li class="mx-3 nav-item"><a class="nav-link" href="history_si.php"><i class="fas fa-history"></i> | ඉතිහාසය</a></li>
+                            <li class="mx-3 nav-item"><a class="nav-link" href="about_si.php"><i class="fas fa-info"></i> | අපි ගැන</a></li>
+                            <li class="mx-3 nav-item"><a class="nav-link" href="gallery_si.php"><i class="fas fa-photo-video"></i> | ගැලරිය</a></li>
+                            <li class="mx-3 nav-item"><a class="nav-link" href="contact_si.php"><i class="fas fa-phone"></i> | ඇමතුම්</a></li>
+                        </ul>
+                        <span class="navbar-text">
+                            <div class="btn-group btn-group-sm">
+                            <button type="button" class="btn btn-outline-light"  onclick="window.location.href = '../index.php';">En</button>
+                            <button type="button" class="btn btn-outline-light"  onclick="window.location.href = 'index_si.php';">සිං</button>
+                        </div>
+                        </span>
+                    </div>
+                <!--</div>-->
+            </nav>
+            
+            <nav class="navbar navbar-expand-sm navbar-dark collapse navbar-collapse" id="myNavbar">
                 <!--<div class="mx-auto d-sm-flex d-block flex-sm-nowrap">-->
                     <div class="container">
                         <ul class="link nav navbar-nav">
@@ -171,7 +197,7 @@
                         <div class="colorGreen col-lg-12 col-md-12 col-sm-12 col-12"></div>
                         <div class="row">
                             <div class="footerBottom col-lg-6 col-md-6 col-sm-6 col-6 py-3">
-                                <p>copyright@madushansandaru1@gmail.com | 2019</p>
+                                Designed by <a href="https://www.linkedin.com/in/madushansandaru1/" target="_blank" class="text-light">MadushanSandaru1 | 2020</a>
                             </div>
                             <div class="sociaMedia col-lg-6 col-md-62 col-sm-6 col-12 py-3 text-right">
                                 <a href="#" target="_blank"><i class="fab fa-facebook-square fa-2x ml-3"></i></a>
